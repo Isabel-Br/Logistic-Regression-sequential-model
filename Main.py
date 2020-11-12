@@ -3,8 +3,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'  # 0: Print all tensorflow debug messag
                                           # 2: Filter out INFO and WARNING messages. 3: Filter out all messages.
 import tensorflow as tf
 from Preprocess_data import *
-# from MC_preprocessing import save_dataframe
-# save_dataframe()
 
 """
 Steps:
@@ -13,10 +11,6 @@ Build neural network.
 Train neural network.
 Export and postprocess results.
 """
-
-# SEQUENTIAL MODEL
-# FUNCTIONAL API
-# TENSORFLOW v.1
 
 # IMPORT AND PREPROCESS DATA #
 
